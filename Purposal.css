@@ -1,0 +1,48 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #fef6f6;
+    color: #333;
+}
+
+header {
+    background: #ffb3e6;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+}
+
+.proposal {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.response button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ff66b2;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.response button:hover {
+    background-color: #ff3399;
+}
+
+.result {
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: none;
+}
